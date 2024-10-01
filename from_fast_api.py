@@ -1,8 +1,9 @@
-from fastapi import APIRouter, Depends, HTTPException, Header
+from fastapi import FastAPI,APIRouter, Depends, HTTPException, Header
 from pydantic import BaseModel
 from auth_util import bearer_auth  
 
 # Define the API router for campaigns
+app = FastAPI
 router = APIRouter()
 
 # Create a model to define the structure of the campaign input
