@@ -27,3 +27,4 @@ async def create_campaign(campaign: Campaign):
     campaigns_db.append(new_campaign)
 
     return {"message": "Campaign created successfully", "campaign": new_campaign}
+# adtyhxfghfx
